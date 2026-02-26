@@ -1,5 +1,5 @@
 variable "instances" {
-    type = list
+    type = list(string)
     default = ["mongodeb","mysql","redis","rabbitmq","catalouge","users","cart","shipping","payment","frontend"]
 
 }

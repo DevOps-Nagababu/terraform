@@ -1,0 +1,4 @@
+variable "sg_description" {
+    type = string
+    default = "sg_terraform_descrtiopn_tfvar"
+}
